@@ -80,7 +80,7 @@ for i in batch:
     pool.close()
     pool.join()
     print("waiting for next batch...")
-    time.sleep(15)
+    time.sleep(40)
 print("Generated ",len(battleDB)," battle data.")
 
 
